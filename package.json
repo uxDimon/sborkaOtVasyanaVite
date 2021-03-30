@@ -1,12 +1,17 @@
 {
 	"name": "sborkaOtVasyanaVite",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"scripts": {
 		"dev": "vite",
-		"build": "vite build --force",
+		"build": "vite build",
 		"preview": "vite preview --port 8080"
 	},
 	"devDependencies": {
+		"sass": "^1.32.8",
 		"vite": "^2.1.0"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.2.5",
+		"postcss-cli": "^8.3.1"
 	}
 }
